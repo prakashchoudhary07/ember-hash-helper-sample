@@ -1,7 +1,5 @@
-{{page-title "HashTest"}}
-
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
-
+{{page-title 'HashTest'}}
+<Add @person={{hash firstname='shubam' lastname='Y'}} />
+<Add @person={{this.person}} />
+{{outlet}}
 {{outlet}}
